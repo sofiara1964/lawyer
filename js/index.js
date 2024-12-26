@@ -1,4 +1,6 @@
 (function () {
+    console.log('Hello');
+
     const burgerItem = document.querySelector('.burger');
     const menu = document.querySelector('.header-lower__list');
     const menuCloseItem = document.querySelector('.header__nav-close');
