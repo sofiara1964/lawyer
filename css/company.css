@@ -1,0 +1,104 @@
+.company {
+    padding-top: 80px;  
+    padding-bottom: 80px;
+}
+.company_com {
+    display: flex;
+}
+.company_com-info-title {
+    font-family: "Nunito Sans";
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 42px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.title-inc {
+    color: #4F8FF0;
+    font-weight: 900;
+}
+.line-l {
+    border-bottom: 3px solid #4F8FF0;
+    max-width: 50px;
+    padding-top: 10px;
+}
+.company_com-info-text {
+    padding-top: 24px;  
+    padding-bottom: 32px; 
+}
+.company_com-info-text1 {
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 24px;
+}
+.company_com-info-text1:last-child {
+    padding-bottom: 0;
+}
+.company_com-info-pic {
+    padding-left: 64px;
+}
+.company-button-btn {    
+    max-height: 49px;
+    border: 2px;
+    padding: 16px 24px;
+    margin-right: 24px;
+    font-family: "Nunito Sans";
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16.8px;
+}
+.company-button-btn:last-child {
+    margin-right: 0;
+}
+.company-button-btn:hover {
+    border: 2px solid #4F8FF0;
+    background: #4F8FF0;
+    transition: 0.15s;
+    color: #FFF;
+}
+
+@media (max-width: 834px) {
+    .wrap {
+       max-width: 696px;
+       padding: 0 15px;
+    }
+    .company {
+        padding-top: 60px;  
+        padding-bottom: 60px;
+    }
+    .company_com-info-title {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .company_com-info-text {  
+        padding-bottom: 36px; 
+    }
+    .company_com-info-pic {
+        display: none;
+    }
+}
+
+@media (max-width: 390px) {
+    .wrap {
+        max-width: 342px;
+        padding: 0 15px;
+    }
+    .company {
+        padding-top: 40px;  
+        padding-bottom: 40px;
+    }
+    .company_com-info-title {
+        font-size: 20px;
+        line-height: 30px;
+        white-space: normal;
+    }
+    .company-button-btn {
+        padding-bottom: 24px;
+    }
+    .company-button-btn:last-child {
+        padding-bottom: 0;
+    }
+}
+
