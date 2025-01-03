@@ -103,6 +103,7 @@
 @media (max-width: 834px) {
     .wrap {
         max-width: 696px;
+        padding: 0 15px;
     }
     .about {
         padding-top: 60px;
@@ -130,7 +131,7 @@
 @media (max-width: 390px) {
     .wrap {
         max-width: 342px;
-        padding: 0;
+        padding: 0 15px;
     }
     .about {
         height: 47.7vh;

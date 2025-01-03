@@ -66,7 +66,6 @@
    font-style: normal;
    color: #222222;
    overflow-x: hidden;
-   background: ;
 }
 img{
 	max-width: 100%;
@@ -81,6 +80,6 @@ img{
  .wrap {
 	max-width: 1320px;
 	margin: 0 auto;
-  padding: 0 15px;
+
 }
 
