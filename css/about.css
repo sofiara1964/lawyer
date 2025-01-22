@@ -40,13 +40,16 @@
     display: block;
     margin: 0 auto;
     padding: 16px 24px;
-    background: #4F8FF0;
-    border: 2px #4F8FF0;
-    color: #FFF;
     font-family: 'Nunito Sans';
     font-weight: 900;
     font-size: 14px; 
     line-height: 16.8px;
+}
+.about__batton-btn:hover {
+    border: 2px #4F8FF0;
+    background: #4F8FF0;
+    transition: 0.15s;
+    color: #FFF;
 }
 .about__slider {
     display: flex;
@@ -105,9 +108,6 @@
         max-width: 696px;
         padding: 0 15px;
     }
-    .about {
-        padding-top: 60px;
-    }
     .about__com-subtitle {
         font-size: 24px;
         line-height: 28.8px;
@@ -134,8 +134,8 @@
         padding: 0 15px;
     }
     .about {
-        height: 47.7vh;
         padding-top: 60px;
+        padding-bottom: 60px;
     }
     .about__com-subtitle {
         font-size: 18px;

@@ -14,8 +14,7 @@
     border-bottom: 3px solid #4F8FF0;
     max-width: 50px;
     margin: 0 auto;
-    padding-top: 10px;
-   
+    padding-top: 10px;  
 }
 .services__text {
     max-width: 810px;
@@ -38,21 +37,81 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px 32px 59px 32px;
-    transition: transform 0.1s;
+    padding: 20px 26px;
+   /* transition: transform 0.1s;*/
 } 
 .services__cards_crd:hover,
 .services__cards_crd:active,
 .services__cards_crd:focus {
-    border: mixed solid #4F8FF0;
     background-color: #4F8FF0;
-    transform: scale(1.1);
     color: #FFF;
+    /* border: mixed solid #4F8FF0;
+    transform: scale(1.1);*/  
 }
-.services__cards-pic:focus,
-.services__cards-pic:hover, 
-.services__cards-pic:active {
-    background-color: #FFF;
+.services__cards-title {
+    margin-top: 25px;
+}
+.corner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.corner-top {
+    display: flex;
+ }
+ .corner-top-left {
+     width: 35px;
+     height: 35px;
+     border-top: 1px solid #FFF;
+     border-left: 1px solid #FFF;
+     margin-right: 295px;
+ }
+ .corner-top-right {
+     width: 35px;
+     height: 35px;
+     border-top: 1px solid #FFF;
+     border-right: 1px solid #FFF;
+ }
+ .corner-bottom {
+    display: flex;
+ }
+ .corner-bottom-left {
+     width: 35px;
+     height: 35px;
+     border-bottom: 1px solid #FFF;
+     border-left: 1px solid #FFF;
+     margin-right: 295px;
+ }
+ .corner-bottom-right {
+     width: 35px;
+     height: 35px;
+     border-bottom: 1px solid #FFF;
+     border-right: 1px solid #FFF;
+ }
+ .general {
+    margin-top: -5px;
+ }
+.quadrate {
+    width: 23.18px;
+    height: 23.18px;
+    border: 3px solid #4F8FF0;
+    border-radius: 4px;
+    margin-left: 5.5px;
+    margin-bottom: -24.5px;
+}
+.arrow {
+    width: 26.17px;
+    height: 26.17px;
+    margin-top: 4px;
+    border-bottom: 3px solid #4f8ff0;
+    border-left: 3px solid #4f8ff0;
+}
+.arrow-bottom {
+    width: 16px;
+    height: 8px;
+    transform: rotate(-45deg);
+    margin-top: -22px;
+    margin-left: 10px;
 }
 .services__cards-title {
     font-family: 'Nunito Sans';
@@ -78,14 +137,29 @@
     display: block;
     margin: 0 auto;
     padding: 16px 24px;
-    background: #4F8FF0;
-    border: 2px #4F8FF0;
-    color: #FFF;
     font-family: 'Nunito Sans';
     font-weight: 900;
     font-size: 14px; 
     line-height: 16.8px;
 }
+.services__button_btn:hover {
+    border: 2px #4F8FF0;
+    background: #4F8FF0;
+    transition: 0.25s;
+    color: #FFF;
+}
+.quadrate:focus {
+    border: 3px solid #FFF;
+}
+.arrow-bottom:focus {
+    border: 3px solid #FFF;
+}
+.arrow:focus {
+    border-bottom: 3px solid #FFF;
+    border-left: 3px solid #FFF;
+}
+/*объясни, пжлста, почему ховер,актив и фокус не срабатывают на эти
+ 3 последних тэга? я и color и background пробовала вместо border*/
 
 
 
@@ -94,13 +168,15 @@
        max-width: 696px;
         padding: 0 15px;
     }
+    .services {
+        padding-top: 60px;
+    }
     .services__cards {
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 24px;
     }
-    .services {
-        padding-top: 60px;
+    .corner {
+        display: none;
     }
     .services__title {
         font-size: 24px;
@@ -110,11 +186,14 @@
         font-size: 16px;
         line-height: 19.2px;
     }
+    .general {
+        margin-top: 0;
+     }
     .br {
         display: none;
     }
     .services__button {
-        padding-top: 48px;
+        padding-top: 36px;
         padding-bottom: 60px;
     }
 }
@@ -129,7 +208,7 @@
     }
     .services__title {
         font-size: 20px;
-        line-height: 30px;
+        line-height: 24px;
     }
     .services__text {
         padding-top: 16px;
@@ -139,13 +218,22 @@
     .services__cards {
         display: flex;
         gap: 24px;
-        max-width: calc(100% - 96px);
-        overflow: auto;
+        max-width: calc(100% - 56px);
+       /* overflow: auto;*/
     }
     .services__cards_crd {
-        position: relative;
-        max-width: calc(50% - 12px);
+       /* position: relative;
+        max-width: calc(50% - 12px);*/
         flex: 1 0 100%;
     }
+   /* .services__cards-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; // Определяем количество строк перед достижением многоточия
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    }перерисовала из инета, но не применилось, 
+    где же ошибка? или не поддерживается браузером*/
+    
     
 }

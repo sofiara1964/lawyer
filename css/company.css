@@ -94,11 +94,15 @@
         line-height: 30px;
         white-space: normal;
     }
-    .company-button-btn {
-        padding-bottom: 24px;
+    .company-button {
+        display: grid;
+        gap: 24px;
     }
-    .company-button-btn:last-child {
-        padding-bottom: 0;
+    .company-button-btn {
+        margin-right: 0;
+        justify-self: center;
+    }
+    
     }
 }
 
