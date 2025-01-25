@@ -1,0 +1,134 @@
+.ourlawyers {
+    background-color: #F7F7F7;
+    padding: 80px 0 80px 0;
+}
+.ourlawyers_title {
+    font-family: 'Nunito Sans';
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.ourlawyers_text {
+    max-width: 810px;
+    margin: 0 auto;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    text-align: center;
+    padding-top: 24px;
+}
+.ourlawyers_cards {
+    padding-top: 48px;
+    display: flex;  
+}
+.ourlawyers_cards-crd {
+    box-shadow: 2px 2px 12px 0px #2121211F;
+    background: #FFFFFF;
+    margin-right: 24px;
+}
+.ourlawyers_cards-crd:last-child {
+    margin-right: 0;
+}
+.ourlawyers_cards-crd-com {
+    padding: 24px 0 24px 0;
+    text-align: center;
+}
+.ourlawyers_cards-crd-com-family {
+    font-family: Nunito Sans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.2px;
+}
+.ourlawyers_cards-crd-com-post {
+    padding-top: 10px;
+    font-family: Nunito Sans;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.8px;
+}
+.ourlawyers_cards-crd-com-post-description {
+    padding-top: 40px;
+}
+.ourlawyers_cards-crd-com-post-experience {
+    padding-top: 40px;
+}
+.variant {
+    padding: 20px;
+}
+.ourlawyers-corner-top {
+    display: flex;
+ }
+ .ourlawyers-corner-top-left {
+     width: 25px;
+     height: 25px;
+     border-top: 1px solid #4F8FF0;
+     border-left: 1px solid #4F8FF0;
+     margin-right: 215px;
+ }
+ .ourlawyers-corner-top-right {
+     width: 25px;
+     height: 25px;
+     border-top: 1px solid #4F8FF0;
+     border-right: 1px solid #4F8FF0;
+ }
+ .ourlawyers-corner-bottom {
+     display: flex;
+     margin-top: 38px;
+ }
+ .ourlawyers-corner-bottom-left {
+     width: 25px;
+     height: 25px;
+     border-bottom: 1px solid #4F8FF0;
+     border-left: 1px solid #4F8FF0;
+     margin-right: 215px;
+ }
+ .ourlawyers-corner-bottom-right {
+     width: 25px;
+     height: 25px;
+     border-bottom: 1px solid #4F8FF0;
+     border-right: 1px solid #4F8FF0;
+ }
+
+
+ @media (max-width: 834px) {
+    .wrap {
+        max-width: 696px;
+        padding: 0 15px;
+     }
+     .ourlawyers {
+        padding: 60px 0 60px 0;
+     }
+    .ourlawyers-corner-top {
+         display: none;
+     }
+    .ourlawyers-corner-bottom {
+        display: none;
+    }
+    .ourlawyers_cards-crd {
+        flex: 1 0 40%;
+    }
+    .ourlawyers_title {
+        font-size: 24px;
+        line-height: 36px;
+    }
+ }
+
+
+ @media (max-width: 390px) {
+    .wrap {
+        max-width: 342px;
+        padding: 0 15px;
+    }
+    .ourlawyers {
+        padding: 40px 0 40px 0;
+    }
+    .ourlawyers_cards {
+        padding-top: 24px;
+    }
+    .ourlawyers_cards-crd {
+        flex: 1 0 75%;
+    }
+ }

@@ -1,6 +1,6 @@
 .services {
     background: #F7F7F7;
-    padding-top: 80px;
+    padding: 80px 0 80px 0;
 }
 .services__title {
     font-family: 'Nunito Sans';
@@ -131,7 +131,7 @@
 }
 .services__button {
     padding-top: 48px;
-    padding-bottom: 80px;
+
 }
 .services__button_btn {
     display: block;
@@ -169,7 +169,7 @@
         padding: 0 15px;
     }
     .services {
-        padding-top: 60px;
+        padding: 60px 0 60px 0;
     }
     .services__cards {
         grid-template-columns: repeat(2, 1fr);
@@ -194,7 +194,6 @@
     }
     .services__button {
         padding-top: 36px;
-        padding-bottom: 60px;
     }
 }
 
@@ -233,7 +232,5 @@
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
     }перерисовала из инета, но не применилось, 
-    где же ошибка? или не поддерживается браузером*/
-    
-    
+    где же ошибка? или не поддерживается браузером*/  
 }
