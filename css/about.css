@@ -46,7 +46,7 @@
     line-height: 16.8px;
 }
 .about__batton-btn:hover {
-    border: 2px #4F8FF0;
+    border: 2px solid #4F8FF0;
     background: #4F8FF0;
     transition: 0.15s;
     color: #FFF;
@@ -105,7 +105,7 @@
 
 @media (max-width: 834px) {
     .wrap {
-        max-width: 696px;
+        max-width: 726px;
         padding: 0 15px;
     }
     .about__com-subtitle {
@@ -130,12 +130,11 @@
 }
 @media (max-width: 390px) {
     .wrap {
-        max-width: 342px;
+        max-width: 372px;
         padding: 0 15px;
     }
     .about {
-        padding-top: 60px;
-        padding-bottom: 60px;
+        margin: 60px 0 60px 0;
     }
     .about__com-subtitle {
         font-size: 18px;

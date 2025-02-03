@@ -8,7 +8,6 @@
     font-size: 28px;
     line-height: 42px;
     text-align: center;
-    padding-bottom: 10px;
 }
 .ourlawyers_text {
     max-width: 810px;
@@ -31,6 +30,10 @@
 }
 .ourlawyers_cards-crd:last-child {
     margin-right: 0;
+}
+.ourlawyers_cards-crd-link {
+    text-decoration: none;
+    color: #222222;
 }
 .ourlawyers_cards-crd-com {
     padding: 24px 0 24px 0;
@@ -95,11 +98,11 @@
 
  @media (max-width: 834px) {
     .wrap {
-        max-width: 696px;
+        max-width: 726px;
         padding: 0 15px;
      }
      .ourlawyers {
-        padding: 60px 0 60px 0;
+        margin: 60px 0 60px 0;
      }
     .ourlawyers-corner-top {
          display: none;
@@ -119,11 +122,11 @@
 
  @media (max-width: 390px) {
     .wrap {
-        max-width: 342px;
+        max-width: 372px;
         padding: 0 15px;
     }
     .ourlawyers {
-        padding: 40px 0 40px 0;
+        margin: 40px 0 40px 0;
     }
     .ourlawyers_cards {
         padding-top: 24px;

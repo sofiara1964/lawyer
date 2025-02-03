@@ -2,13 +2,12 @@
     background: #F7F7F7;
     padding: 80px 0 80px 0;
 }
-.services__title {
+.services_title {
     font-family: 'Nunito Sans';
     font-weight: 800;
     font-size: 28px;
     line-height: 42px;
     text-align: center;
-    padding-bottom: 10px;
 }
 .line-level {
     border-bottom: 3px solid #4F8FF0;
@@ -16,7 +15,7 @@
     margin: 0 auto;
     padding-top: 10px;  
 }
-.services__text {
+.services_text {
     max-width: 810px;
     margin: 0 auto;
     font-family: 'Nunito Sans';
@@ -26,30 +25,31 @@
     text-align: center;
     padding-top: 24px;
 }
-.services__cards {
+.services_cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);	
-    gap: 38px;
+    gap: 24px;
     padding-top: 48px;
 }
-.services__cards_crd {
+.services_cards_crd-link {
+    text-decoration: none;
+    color: #222222;
+}
+.services_cards_crd {
     background: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 26px;
+    padding: 20px 32px 20px 20px;
    /* transition: transform 0.1s;*/
 } 
-.services__cards_crd:hover,
-.services__cards_crd:active,
-.services__cards_crd:focus {
+.services_cards_crd:hover,
+.services_cards_crd:active,
+.services_cards_crd:focus {
     background-color: #4F8FF0;
     color: #FFF;
     /* border: mixed solid #4F8FF0;
     transform: scale(1.1);*/  
-}
-.services__cards-title {
-    margin-top: 25px;
 }
 .corner {
     display: flex;
@@ -113,15 +113,15 @@
     margin-top: -22px;
     margin-left: 10px;
 }
-.services__cards-title {
+.services_cards_crd-title {
     font-family: 'Nunito Sans';
     font-weight: 800;
     font-size: 20px;
     line-height: 30px;
-    text-align: center;
     padding-top: 15px;
+    margin-top: 25px;
 }
-.services__cards-text {
+.services_cards_crd-text {
     font-family: 'Nunito Sans';
     font-weight: 400;
     font-size: 14px;
@@ -129,11 +129,10 @@
     text-align: center;
     padding-top: 10px;
 }
-.services__button {
+.services_button {
     padding-top: 48px;
-
 }
-.services__button_btn {
+.services_button_btn {
     display: block;
     margin: 0 auto;
     padding: 16px 24px;
@@ -142,7 +141,7 @@
     font-size: 14px; 
     line-height: 16.8px;
 }
-.services__button_btn:hover {
+.services_button_btn:hover {
     border: 2px #4F8FF0;
     background: #4F8FF0;
     transition: 0.25s;
@@ -165,24 +164,24 @@
 
 @media (max-width: 834px) {
     .wrap {
-       max-width: 696px;
+       max-width: 726px;
         padding: 0 15px;
     }
     .services {
         padding: 60px 0 60px 0;
     }
-    .services__cards {
+    .services_cards {
         grid-template-columns: repeat(2, 1fr);
         gap: 24px;
     }
     .corner {
         display: none;
     }
-    .services__title {
+    .services_title {
         font-size: 24px;
         line-height: 36px;
     }
-    .services__text {
+    .services_text {
         font-size: 16px;
         line-height: 19.2px;
     }
@@ -192,18 +191,18 @@
     .br {
         display: none;
     }
-    .services__button {
+    .services_button {
         padding-top: 36px;
     }
 }
 
 @media (max-width: 390px) {
     .wrap {
-        max-width: 342px;
+        max-width: 372px;
         padding: 0 15px;
     }
     .services {
-        padding-top: 40px;
+        padding: 40px 0 40px 0;
     }
     .services__title {
         font-size: 20px;

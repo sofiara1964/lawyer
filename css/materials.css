@@ -1,0 +1,124 @@
+.materials {   
+    margin: 80px 0 80px 0;
+}
+.materials_title {
+    font-family: 'Nunito Sans';
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+}
+.materials_text {
+    max-width: 810px;
+    margin: 0 auto;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+    text-align: center;
+    padding-top: 24px;
+}
+.materials_cards {
+    padding-top: 48px;
+    display: flex;
+    gap: 24px;
+}
+.materials_cards-crd {
+    max-width: 424px;
+}
+.materials_cards-crd-title {
+    padding-top: 24px;
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.materials_cards-crd-data {
+    padding-top: 16px;
+    font-family: 'Nunito Sans';
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14.4px;
+}
+.materials_cards-crd-data-line {
+    display: flex;
+}
+.materials_cards-crd-line {
+    max-width: 314px;
+    border: 1px solid #F8F5F4;
+    rotate: -0;
+}
+.materials_cards-crd-text {
+    padding-top: 16px;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+}
+.materials_cards-crd-com-pic {
+    position: relative;
+}
+.materials_cards-crd-com {
+    text-decoration: none;
+    color: #222;
+}
+.corner-crn {
+    position: absolute;
+    z-index: 3;
+    margin-top: -249px;
+    margin-left: 20px;
+}
+.corner-crn-top {
+    display: flex;
+ }
+ .corner-crn-top-left {
+     width: 35px;
+     height: 35px;
+     border-top: 1px solid #FFF;
+     border-left: 1px solid #FFF;
+     margin-right: 305px;
+     margin-bottom: 160px;
+ }
+ .corner-crn-top-right {
+     width: 35px;
+     height: 35px;
+     border-top: 1px solid #FFF;
+     border-right: 1px solid #FFF;
+ }
+ .corner-crn-bottom {
+    display: flex;
+ }
+ .corner-crn-bottom-left {
+     width: 35px;
+     height: 35px;
+     border-bottom: 1px solid #FFF;
+     border-left: 1px solid #FFF;
+     margin-right: 305px;
+ }
+ .corner-crn-bottom-right {
+     width: 35px;
+     height: 35px;
+     border-bottom: 1px solid #FFF;
+     border-right: 1px solid #FFF;
+ }
+.materials_cards-crd-com:active {
+    opacity: #4F8FF066;
+} 
+.materials_button {
+    padding-top: 48px;
+}
+.materials_button-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 16px 24px;
+    font-family: 'Nunito Sans';
+    font-weight: 900;
+    font-size: 14px; 
+    line-height: 16.8px;
+}
+.materials_button-btn:hover {
+    border: 2px #4F8FF0;
+    background: #4F8FF0;
+    transition: 0.25s;
+    color: #FFF;
+}

@@ -113,7 +113,7 @@
     
 @media (max-width: 834px) {
     .wrap {
-        max-width: 696px;
+        max-width: 726px;
         padding: 0 15px;
     }
     .header-upper__contact-telcom {
@@ -186,7 +186,7 @@
 
 @media (max-width: 390px) {
     .wrap {
-        max-width: 342px;
+        max-width: 372px;
         padding: 0 15px;
     }
     .header-upper__contact-telcom {
