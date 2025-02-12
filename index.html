@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/ourlawyers.css">
     <link rel="stylesheet" href="./css/reviews.css">
     <link rel="stylesheet" href="./css/materials.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <script src="./js/index.js" defer></script>
     <title>Lawyer</title>
     
@@ -120,7 +121,7 @@
         </div>
     </div>
     <div class="wrapper">
-        <div class="services">
+        <div class="services" id="services">
             <div class="wrap">  
                 <div class="services-com">
                     <div class="services_title">
@@ -319,7 +320,7 @@
     </div>
     <div class="wrapper">
         <div class="wrap">
-            <div class="company">
+            <div class="company" id="company">
                 <div class="company_com">
                     <div class="company_com-info">
                         <div class="company_com-info-title">
@@ -432,7 +433,7 @@
         </div>
     </div>
     <div class="wrapper">
-        <div class="reviews">
+        <div class="reviews" id="reviews">
             <div class="wrap">
                 <div class=" reviews_info">
                     <div class="reviews_info-com">
@@ -503,7 +504,7 @@
     </div>   
     <div class="wrapper">
         <div class="wrap">
-            <div class="materials">
+            <div class="materials" id="materials">
                 <div class="materials-com">
                     <div class="materials_title">
                         Полезные материалы
@@ -520,23 +521,21 @@
                     <div class="materials_cards-crd">
                         <a href="#!" class="materials_cards-crd-com">
                             <img src="./images/materials1.jpg" alt="buildings"
-                             class="materials_cards-crd-com-pic">
-                             
-                        <div class="corner corner-crn">
-                            <div class="corner-crn-top">
-                                <div class="corner-crn-top-left"></div>
-                                <div class="corner-crn-top-right"></div>
-                            </div>                             
-                            <div class="corner-crn-bottom">
-                                <div class="corner-crn-bottom-left"></div>
-                                <div class="corner-crn-bottom-right"></div>
+                             class="materials_cards-crd-com-pic">                             
+                            <div class="corner corner-crn">
+                                <div class="corner-crn-top">
+                                    <div class="corner-crn-top-left"></div>
+                                    <div class="corner-crn-top-right"></div>
+                                </div>                             
+                                <div class="corner-crn-bottom">
+                                    <div class="corner-crn-bottom-left"></div>
+                                    <div class="corner-crn-bottom-right"></div>
+                                </div>
+                            </div> 
+                            <div class="materials_cards-crd-title">
+                                Воистину радостный звук: шёпот бессменных лидеров
                             </div>
-                        </div> 
-
-                        <div class="materials_cards-crd-title">
-                            Воистину радостный звук: шёпот бессменных лидеров
-                        </div>
-                    </a>
+                        </a>
                         <div class="materials_cards-crd-data-line">
                             <div class="materials_cards-crd-data">
                                 24 апр. 2023 г.
@@ -551,13 +550,25 @@
                         </div>
                      </div>
                     <div class="materials_cards-crd">
-                        <a href="#!"><img src="./images/materials2.jpg" alt="tower" class="materials_cards-crd-pic"></a>
-                        <div class="materials_cards-crd-title">
-                            Франция намерена исследовать, почему объемы выросли
-                        </div>
+                        <a href="#!" class="materials_cards-crd-com">
+                            <img src="./images/materials2.jpg" alt="tower" class="materials_cards-crd-com-pic">
+                            <div class="corner corner-crn">
+                                <div class="corner-crn-top">
+                                    <div class="corner-crn-top-left"></div>
+                                    <div class="corner-crn-top-right"></div>
+                                </div>                             
+                                <div class="corner-crn-bottom">
+                                    <div class="corner-crn-bottom-left"></div>
+                                    <div class="corner-crn-bottom-right"></div>
+                                </div>
+                            </div> 
+                            <div class="materials_cards-crd-title">
+                                Франция намерена исследовать, почему объемы выросли
+                            </div>
+                        </a>
                         <div class="materials_cards-crd-data-line">
                             <div class="materials_cards-crd-data">
-                                12 мар. 2023 г.
+                                24 апр. 2023 г.
                             </div>
                             <div class="materials_cards-crd-line"></div>
                         </div>
@@ -568,13 +579,25 @@
                         </div>
                     </div>
                     <div class="materials_cards-crd">
-                        <a href="#!"><img src="./images/materials3.jpg" alt="handshake" class="materials_cards-crd-pic"></a>
-                        <div class="materials_cards-crd-title">
-                            Сплочённость команды профессионалов продолжает удивлять
-                        </div>
+                        <a href="#!" class="materials_cards-crd-com">
+                            <img src="./images/materials3.jpg" alt="handshake" class="materials_cards-crd-com-pic">
+                            <div class="corner corner-crn">
+                                <div class="corner-crn-top">
+                                    <div class="corner-crn-top-left"></div>
+                                    <div class="corner-crn-top-right"></div>
+                                </div>                             
+                                <div class="corner-crn-bottom">
+                                    <div class="corner-crn-bottom-left"></div>
+                                    <div class="corner-crn-bottom-right"></div>
+                                </div>
+                            </div> 
+                            <div class="materials_cards-crd-title">
+                                Сплочённость команды профессионалов продолжает удивлять
+                            </div>
+                        </a>
                         <div class="materials_cards-crd-data-line">
                             <div class="materials_cards-crd-data">
-                                02 фев. 2023 г.
+                                24 апр. 2023 г.
                             </div>
                             <div class="materials_cards-crd-line"></div>
                         </div>
@@ -591,6 +614,136 @@
                 </div>
             </div>
         </div>
-    </div>   
+    </div> 
+    <div class="wrapper">
+        <div class="footer">
+            <div class="wrap">
+                <div class="footer_logo">
+                    <div class="footer_logo-com">
+                        <div class="footer_logo-com-title">
+                            Правозащитник
+                        </div>
+                        <div class="footer_logo-com-text">
+                            Юридическая компания
+                        </div>
+                    </div>
+                    <div class="footer_logo-description">
+                        Предварительные выводы неутешительны:
+                        синтетическое тестирование, а также 
+                        свежий взгляд на привычные<br> вещи —
+                        безусловно открывает новые горизонты
+                        для экономической целесообразности
+                        принимаемых решений.
+                    </div>    
+                </div>
+                <div class="footer_line"></div>
+                <div class="footer-upper">
+                    <div class="footer-upper_contacts">
+                        <div class="footer-upper_contacts-adress">
+                            <img src="./images/footer-adress.png" alt="tel" class="footer-upper_contacts-adress-icon">
+                            <div class="footer-upper_contacts-adress-com">
+                                <div class="footer-upper_contacts-adress-com-location">
+                                    Наш адрес
+                                </div>
+                                <div class="footer-upper_contacts-adress-com-street">
+                                    г. Одинцово, пр. Будапештсткая, 40
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-upper_contacts-tel">
+                            <img src="./images/footer-tel.png" alt="tel" class="footer-upper_contacts-tel-icon">
+                            <div class="footer-upper_contacts-tel-com">
+                                <div class="footer-upper_contacts-tel-com-recording">
+                                    Запись на консультанцию
+                                </div>
+                                <div class="footer-upper_contacts-tel-com-number">
+                                    +7 (922) 022-94-82
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-upper_contacts-email">
+                            <img src="./images/footer-email.png" alt="email" class="footer-upper_contacts-email-icon">
+                            <div class="footer-upper_contacts-email-com">
+                                <div class="footer-upper_contacts-email-com-correspondence">
+                                    Корреспонденция
+                                </div>
+                                <div class="footer-upper_contacts-email-com-letter">
+                                    janis62@yahoo.com
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="footer-upper-com">
+                        <div class="footer-upper-com_enumeration">
+                            <a href="#services" class="footer-upper-com_enumeration-link">
+                                <div class="footer-upper-com_enumeration-part">
+                                    Услуги
+                                </div>
+                             </a>
+                             <a href="#company" class="footer-upper-com_enumeration-link">
+                                <div class="footer-upper-com_enumeration-part">
+                                    О компании
+                                </div>
+                            </a>
+                            <a href="#!" class="footer-upper-com_enumeration-link">    
+                                <div class="footer-upper-com_enumeration-part">
+                                    Сертификаты 
+                                </div>
+                            </a>
+                            <a href="#reviews" class="footer-upper-com_enumeration-link">    
+                                <div class="footer-upper-com_enumeration-part">
+                                    Отзывы 
+                                </div>
+                            </a>
+                            <a href="#materials" class="footer-upper-com_enumeration-link">    
+                                <div class="footer-upper-com_enumeration-part">
+                                    Полезные материалы
+                                </div>
+                            </a>
+                            <a href="#!" class="footer-upper-com_enumeration-link">    
+                                <div class="footer-upper-com_enumeration-part">
+                                    Благотворительность
+                                </div>
+                            </a>    
+                        </div>
+                        <div class="footer-upper-com_question">    
+                            <div class="footer-upper-com_question-evidence">
+                                <img src="./images/footer-pic.jpg" alt="lawyer" 
+                                class="footer-upper-com_question-evidence-pic">
+                                <div class="footer-upper-com_question-evidence-collect">
+                                    <div class="footer-upper-com_question-evidence-collect-family">
+                                        Миронов Александр
+                                    </div>
+                                    <div class="footer-upper-com_question-evidence-collect-proff">
+                                        Ведущий юрист
+                                    </div>
+                                </div>    
+                            </div>    
+                            <div class="footer-upper-com_question-text">
+                                Есть над чем задуматься: тщательные исследования<br> конкурентов
+                                    разоблачены. Идейные соображения высшего<br> порядка, а также
+                                    перспективное планирование играет 
+                            </div>
+                            <div class="footer_button">
+                                <input type="submit" value="Задать вопрос юристу" class="footer_button-btn"> 
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>      
+        </div>
+        <div class="footer-lower">
+            <div class="wrap">            
+                <div class="footer-lower-com">
+                    <div class="footer-lower-com_rights">
+                        Все права защищены, 2023
+                    </div>
+                    <div class="footer-lower-com_politic">
+                        Политика обработки персональных данных
+                    </div>
+                </div>
+            </div>      
+        </div>
+    </div>    
 </body>
 </html>

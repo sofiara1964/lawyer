@@ -24,7 +24,7 @@
     gap: 24px;
 }
 .materials_cards-crd {
-    max-width: 424px;
+    width: 424px;
 }
 .materials_cards-crd-title {
     padding-top: 24px;
@@ -33,21 +33,29 @@
     font-size: 16px;
     line-height: 24px;
 }
-.materials_cards-crd-data {
+.materials_cards-crd-data-line {
+    display: flex;
+    justify-content: space-between;
     padding-top: 16px;
+}
+.materials_cards-crd-data {
     font-family: 'Nunito Sans';
     font-weight: 300;
     font-size: 12px;
-    line-height: 14.4px;
-}
-.materials_cards-crd-data-line {
-    display: flex;
+    line-height: 14.4px;  
 }
 .materials_cards-crd-line {
-    max-width: 314px;
-    border: 1px solid #F8F5F4;
-    rotate: -0;
+    width: 314px;
+    border-bottom: 1px solid #F8F5F4;
+    margin-bottom: 8px;
 }
+/*.materials_cards-crd-data::after {
+    content: "";
+    width: 314px;
+    border-bottom: 1px solid #F8F5F4;
+    display: inline-block;
+    margin-left: 24px;  
+}*/
 .materials_cards-crd-text {
     padding-top: 16px;
     font-family: 'Nunito Sans';
@@ -122,3 +130,59 @@
     transition: 0.25s;
     color: #FFF;
 }
+
+@media (max-width: 834px) {
+    .wrap {
+        max-width: 726px;
+        padding: 0 15px;
+    }
+    .materials {   
+        margin: 60px 0 60px 0;
+    }
+    .materials_title {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .materials_text {
+        font-size: 16px;
+        line-height: 19.2px;
+        padding-top: 30px;
+    }
+    .materials_cards {
+        padding-top: 30px;
+    }
+    .materials_cards-crd-com-pic {
+        max-width: 336px; 
+    }
+    /*.materials_cards-crd {
+        max-width: 336px;
+    }*/
+    .materials_cards-crd-line {
+      width: 226px;
+    }
+}
+
+
+@media (max-width: 390px) {
+    .wrap {
+        max-width: 372px;
+        padding: 0 15px;
+    }
+    .materials {
+        margin: 40px 0 40px 0;
+    }
+    .materials_title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .materials_text {
+        font-size: 14px;
+        line-height: 16.8px;
+        padding-top: 16px;
+    }
+    .materials_cards {
+        padding-top: 24px;
+    }
+    .materials_cards-crd-com-pic {
+        max-width: 250px; 
+    }
