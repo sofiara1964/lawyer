@@ -1,0 +1,280 @@
+.footer {
+    background: #222222;
+    color: #FFFFFF;
+    padding-top: 80px;
+}
+.footer_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_logo-com-title {
+    font-family: 'Nunito Sans';
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #4F8FF0;
+}
+.footer_logo-com-text { 
+    font-family: 'Nunito Sans';
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.footer_logo-description {
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #F8F5F4;
+}
+.footer_line {
+    width: 100%;
+    border: 1px solid #8C8C8C;
+    margin-top: 48px;
+}
+.footer-upper {
+    padding-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 84px;
+}
+.footer-upper_contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.footer-upper_contacts-adress {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.footer-upper_contacts-adress-com-location {
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14.4px;
+    color: #8C8C8C;
+    text-transform: uppercase;
+}
+.footer-upper_contacts-adress-com-street {
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer-upper_contacts-tel {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.footer-upper_contacts-tel-com-recording {
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14.4px;
+    color: #8C8C8C;
+    text-transform: uppercase;
+}
+.footer-upper_contacts-tel-com-number {
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer-upper_contacts-email {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.footer-upper_contacts-email-com-correspondence {
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14.4px;
+    color: #8C8C8C;
+    text-transform: uppercase;
+}
+.footer-upper_contacts-email-com-letter {
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer-upper-com {
+    display: flex;
+    gap: 84px;
+}
+.footer-upper-com_enumeration-link {
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF
+}
+.footer-upper-com_enumeration-part:hover {
+    color: #4F8FF0;
+}
+.footer-upper-com_enumeration-part {
+    padding-top: 16px;
+}
+.footer-upper-com_enumeration-link:first-child {
+    padding-top: 0;
+}
+.footer-upper-com_question-evidence {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.footer-upper-com_question-evidence-pic {
+    border-radius: 50%;
+}
+.footer-upper-com_question-evidence-collect-family {
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+.footer-upper-com_question-evidence-collect-proff {
+    font-family: 'Nunito Sans';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.8px;
+}
+.footer-upper-com_question-text {
+    padding-top: 16px;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+.footer_button {
+    margin-top: 24px; 
+}
+.footer_button-btn {
+    padding: 16px 24px;
+    font-family: 'Nunito Sans';
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16.8px;
+    text-transform: uppercase;
+}
+.footer_button-btn:hover {
+    border: 2px #4F8FF0;
+    background: #4F8FF0;
+    transition: 0.25s;
+    color: #FFF;
+}
+
+.footer-lower {
+    height: 49px;
+    background: #181818;
+    margin-bottom: 80px;
+}
+.footer-lower-com {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #F8F5F4;
+    padding: 16px 0 16px 0;
+}
+
+
+@media (max-width: 834px) {
+    .wrap {
+        max-width: 726px;
+        padding: 0 15px;
+    }
+    .footer {   
+        padding-top: 60px;
+    }
+    .footer_logo-description {
+        display: none;
+    }
+    .footer-upper-com_enumeration {
+        display: none;
+    }
+    .footer-upper_contacts {
+        gap: 34px;
+    }
+    .footer-upper_contacts-adress {
+        gap: 16px;
+    }
+    .footer-upper_contacts-adress-icon {
+        width: 45px;
+        height: 45px;
+    }
+    .footer-upper_contacts-adress-com-street {
+        font-family: 'Nunito Sans';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .footer-upper_contacts-tel {
+        gap: 16px;
+    }
+    .footer-upper_contacts-tel-icon {
+        width: 45px;
+        height: 45px;
+    }
+    .footer-upper_contacts-tel-com-number {
+        font-family: 'Nunito Sans';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .footer-upper_contacts-email {
+        gap: 16px;
+    }
+    .footer-upper_contacts-email-icon {
+        width: 45px;
+        height: 45px;
+    }
+    .footer-upper_contacts-email-com-letter {
+        font-family: 'Nunito Sans';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+
+@media (max-width: 390px) {
+    .wrap {
+        max-width: 372px;
+        padding: 0 15px;
+    }
+    .footer {   
+        padding-top: 60px;
+    }
+    .footer_logo {
+        justify-content: center;
+    }
+    .footer-upper {
+        padding-top: 24px;
+        display: block;
+        padding-bottom: 40px;
+    }
+    .footer-upper-com_question {
+        padding-top: 40px;
+    }
+    .footer-upper_contacts {
+        gap: 16px;
+    }
+
+
+
+    .footer-lower {
+        height: 74px;
+    }
+    .footer-lower-com {
+        flex-direction: column;
+        align-items: center;
+    }
+}
